@@ -1,0 +1,282 @@
+{
+  "lines": [
+    {
+      "id": "A",
+      "trajet": "AURILLAC L.P. Cortat — ARPAJON Cité du Pont",
+      "category": "structurante",
+      "color": "#f97316",
+      "status": "normal",
+      "duration": "08 min 46",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC L.P. Cortat",
+        "ARPAJON Cité du Pont"
+      ]
+    },
+    {
+      "id": "B",
+      "trajet": "AURILLAC La Montade — NAUCELLES Z.A. de Conthe",
+      "category": "structurante",
+      "color": "#2563eb",
+      "status": "normal",
+      "duration": "05 min 05",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC La Montade",
+        "NAUCELLES Z.A. de Conthe"
+      ]
+    },
+    {
+      "id": "C",
+      "trajet": "AURILLAC La Montade — YTRAC Espinassette",
+      "category": "structurante",
+      "color": "#16a34a",
+      "status": "normal",
+      "duration": "02 min 55",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC La Montade",
+        "YTRAC Espinassette"
+      ]
+    },
+    {
+      "id": "D",
+      "trajet": "AURILLAC La Montade — NAUCELLES Eau de Vie",
+      "category": "structurante",
+      "color": "#eab308",
+      "status": "minor",
+      "duration": "07 min 51",
+      "message": "Ralentissements jusqu'à 6 minutes en direction de NAUCELLES Eau de Vie en raison de travaux de voirie.",
+      "stops": [
+        "AURILLAC La Montade",
+        "NAUCELLES Eau de Vie"
+      ]
+    },
+    {
+      "id": "E",
+      "trajet": "AURILLAC La Montade — ARPAJON Gendarmerie",
+      "category": "structurante",
+      "color": "#dc2626",
+      "status": "normal",
+      "duration": "03 min 23",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC La Montade",
+        "ARPAJON Gendarmerie"
+      ]
+    },
+    {
+      "id": "F",
+      "trajet": "AURILLAC La Montade — NAUCELLES Gare",
+      "category": "structurante",
+      "color": "#0891b2",
+      "status": "normal",
+      "duration": "02 min 04",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC La Montade",
+        "NAUCELLES Gare"
+      ]
+    },
+    {
+      "id": "2",
+      "trajet": "AURILLAC La Montade — AURILLAC Marmiers",
+      "category": "urbaine",
+      "color": "#9333ea",
+      "status": "normal",
+      "duration": "04 min",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC La Montade",
+        "AURILLAC Marmiers"
+      ]
+    },
+    {
+      "id": "3",
+      "trajet": "AURILLAC La Montade — RN1 Belbex Cité d'Aron",
+      "category": "urbaine",
+      "color": "#0d9488",
+      "status": "normal",
+      "duration": "07 min",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC La Montade",
+        "RN1 Belbex Cité d'Aron"
+      ]
+    },
+    {
+      "id": "G4",
+      "trajet": "AURILLAC La Montade — AURILLAC La Montade",
+      "category": "urbaine",
+      "color": "#65a30d",
+      "status": "normal",
+      "duration": "11 min",
+      "message": "Trafic normal. Ligne en boucle au départ et à l'arrivée de La Montade.",
+      "stops": [
+        "AURILLAC La Montade",
+        "AURILLAC La Montade"
+      ],
+      "loop": true
+    },
+    {
+      "id": "6",
+      "trajet": "AURILLAC Square Gambetta — ARPAJON Cité du Pont",
+      "category": "urbaine",
+      "color": "#64748b",
+      "status": "suspended",
+      "duration": "Non réalisée",
+      "message": "Ligne non encore mise en service. Aucun véhicule ne circule actuellement.",
+      "stops": [
+        "AURILLAC Square Gambetta",
+        "ARPAJON Cité du Pont"
+      ]
+    },
+    {
+      "id": "7",
+      "trajet": "AURILLAC La Montade — AURILLAC L.P. Cortat",
+      "category": "urbaine",
+      "color": "#db2777",
+      "status": "normal",
+      "duration": "06 min",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC La Montade",
+        "AURILLAC L.P. Cortat"
+      ]
+    },
+    {
+      "id": "9",
+      "trajet": "AURILLAC L.P. Cortat — YTRAC Cité d'Études",
+      "category": "urbaine",
+      "color": "#ea580c",
+      "status": "major",
+      "duration": "17 min 22",
+      "message": "Aucun service entre AURILLAC L.P. Cortat et YTRAC Cité d'Études. Des bus de remplacement sont mis en place. Prévoyez un temps de trajet supplémentaire.",
+      "stops": [
+        "AURILLAC L.P. Cortat",
+        "YTRAC Cité d'Études"
+      ]
+    },
+    {
+      "id": "10E",
+      "trajet": "AURILLAC Gare — NAUCELLES Gare",
+      "category": "express",
+      "color": "#4f46e5",
+      "status": "normal",
+      "duration": "11 min",
+      "message": "Trafic normal. Service express avec arrêts limités.",
+      "stops": [
+        "AURILLAC Gare",
+        "NAUCELLES Gare"
+      ]
+    },
+    {
+      "id": "10",
+      "trajet": "AURILLAC Gare Routière — NAUCELLES Gare",
+      "category": "urbaine",
+      "color": "#0284c7",
+      "status": "normal",
+      "duration": "15 min",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC Gare Routière",
+        "NAUCELLES Gare"
+      ]
+    },
+    {
+      "id": "12",
+      "trajet": "AURILLAC L.P. Cortat — Rte de Belbex",
+      "category": "urbaine",
+      "color": "#ca8a04",
+      "status": "minor",
+      "duration": "30 min 05",
+      "message": "Déviations en vigueur à proximité de la Rte de Belbex en raison d'un événement, jusqu'à 18 h 00.",
+      "stops": [
+        "AURILLAC L.P. Cortat",
+        "Rte de Belbex"
+      ]
+    },
+    {
+      "id": "13",
+      "trajet": "AURILLAC L.P. Cortat — ARPAJON Cité du Pont",
+      "category": "urbaine",
+      "color": "#16a34a",
+      "status": "normal",
+      "duration": "03 min 44",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC L.P. Cortat",
+        "ARPAJON Cité du Pont"
+      ]
+    },
+    {
+      "id": "14",
+      "trajet": "AURILLAC L.P. Cortat — NAUCELLES Gare",
+      "category": "urbaine",
+      "color": "#2563eb",
+      "status": "normal",
+      "duration": "05 min 57",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "AURILLAC L.P. Cortat",
+        "NAUCELLES Gare"
+      ]
+    },
+    {
+      "id": "15E",
+      "trajet": "AURILLAC L.P. Cortat — THIERCÉ Arago",
+      "category": "express",
+      "color": "#7c3aed",
+      "status": "suspended",
+      "duration": "Non réalisée",
+      "message": "Ligne non encore mise en service. Aucun véhicule ne circule actuellement.",
+      "stops": [
+        "AURILLAC L.P. Cortat",
+        "THIERCÉ Arago"
+      ]
+    },
+    {
+      "id": "16",
+      "trajet": "YTRAC Cité d'Études — ARPAJON Cité du Pont",
+      "category": "urbaine",
+      "color": "#e11d48",
+      "status": "normal",
+      "duration": "12 min 45",
+      "message": "Trafic normal sur l'ensemble de la ligne.",
+      "stops": [
+        "YTRAC Cité d'Études",
+        "ARPAJON Cité du Pont"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "category": "Réseau",
+      "title": "Le réseau LogiTransports atteint 12 lignes et près de 180 véhicules",
+      "excerpt": "La dynamique d'expansion se poursuit : douze lignes distinctes couvrent désormais un large périmètre, avec près de 180 véhicules mobilisés quotidiennement pour une fréquence optimale.",
+      "date": "9 juin 2026"
+    },
+    {
+      "id": "n2",
+      "category": "Travaux",
+      "title": "Ligne 9 : bus de remplacement entre L.P. Cortat et YTRAC Cité d'Études",
+      "excerpt": "En raison de travaux, aucun service n'est assuré sur la ligne 9. Des bus de remplacement desservent l'ensemble des arrêts concernés. Prévoyez un temps de trajet supplémentaire.",
+      "date": "6 juin 2026"
+    },
+    {
+      "id": "n3",
+      "category": "Fiche trajets",
+      "title": "La fiche trajets V5 est désormais disponible",
+      "excerpt": "Consultez l'intégralité des trajets et les temps de parcours pour chaque segment du réseau. Une étape importante dans la mise en œuvre des lignes.",
+      "date": "2 juin 2026"
+    },
+    {
+      "id": "n4",
+      "category": "À venir",
+      "title": "Lignes 6 et 15E : mise en service prochaine",
+      "excerpt": "Les lignes 6 (Square Gambetta — Arpajon Cité du Pont) et 15E (L.P. Cortat — Thiercé Arago) ne sont pas encore réalisées et seront mises en service prochainement.",
+      "date": "28 mai 2026"
+    }
+  ]
+}
