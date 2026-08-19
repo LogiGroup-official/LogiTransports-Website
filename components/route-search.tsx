@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react"
 import { MapPin, Search, ArrowRight, Repeat } from "lucide-react"
 import { categoryLabels, type Line } from "@/lib/network-data"
+import { RouteSegment } from "@/components/route-segment"
 
 function normalize(str: string) {
   return str
@@ -192,39 +193,38 @@ export function RouteSearch({ lines }: { lines: Line[] }) {
           )}
 
           {!errorMsg && results.length > 0 && (
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col gap-4">
               {results.map((r, i) => (
-                <li
-                  key={i}
-                  className="flex flex-col gap-1 border-b border-border pb-3 last:border-0 last:pb-0"
-                >
+                <li key={i}>
                   {r.type === "direct" ? (
-                    <div className="flex flex-wrap items-center gap-2 text-sm text-foreground">
-                      <LineBadge line={r.line} />
-                      <span className="text-muted-foreground">
-                        {categoryLabels[r.line.category]} · trajet direct
-                      </span>
-                      <span className="w-full text-sm text-muted-foreground">
-                        Montez à <strong className="text-foreground">{r.from}</strong>,
-                        descendez à{" "}
-                        <strong className="text-foreground">{r.to}</strong>.
-                      </span>
+                    <div className="flex flex-col gap-2">
+                      <div className="flex flex-wrap items-center gap-2 text-sm">
+                        <span className="text-muted-foreground">
+                          {categoryLabels[r.line.category]} · trajet direct
+                        </span>
+                      </div>
+                      <RouteSegment line={r.line} from={r.from} to={r.to} />
                     </div>
                   ) : (
-                    <div className="flex flex-wrap items-center gap-2 text-sm text-foreground">
-                      <LineBadge line={r.line1} />
-                      <Repeat className="size-3.5 text-muted-foreground" />
-                      <LineBadge line={r.line2} />
-                      <span className="text-muted-foreground">
-                        1 correspondance
-                      </span>
-                      <span className="w-full text-sm text-muted-foreground">
-                        Ligne {r.line1.id} de{" "}
-                        <strong className="text-foreground">{r.from}</strong>{" "}
-                        à <strong className="text-foreground">{r.transferStop}</strong>,
-                        puis ligne {r.line2.id} jusqu'à{" "}
-                        <strong className="text-foreground">{r.to}</strong>.
-                      </span>
+                    <div className="flex flex-col gap-2">
+                      <div className="flex flex-wrap items-center gap-2 text-sm">
+                        <LineBadge line={r.line1} />
+                        <Repeat className="size-3.5 text-muted-foreground" />
+                        <LineBadge line={r.line2} />
+                        <span className="text-muted-foreground">
+                          1 correspondance à {r.transferStop}
+                        </span>
+                      </div>
+                      <RouteSegment
+                        line={r.line1}
+                        from={r.from}
+                        to={r.transferStop}
+                      />
+                      <RouteSegment
+                        line={r.line2}
+                        from={r.transferStop}
+                        to={r.to}
+                      />
                     </div>
                   )}
                 </li>
